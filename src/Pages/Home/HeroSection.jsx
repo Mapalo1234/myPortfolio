@@ -7,7 +7,7 @@ export default function HeroSection() {
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Full Stack</span>{" "}
             <br />
-            Developer
+            <span className="hero--section-sec--title--color">Developer</span>
           </h1>
           <p className="hero--section-description">
            I am a passionate Full Stack Developer skilled in building dynamic and responsive web applications.

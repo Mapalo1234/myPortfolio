@@ -81,15 +81,12 @@
         <div className="hero--section--content">
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description--about">
-            <p className="hero--section-description--about">
                  I’m a full-stack developer who enjoys building clean,
                   responsive web apps with React, Node.js, and MongoDB.
                    I focus on creating smooth user experiences and scalable
                     systems that solve real problems, while also working with
                      tools like Figma and Photoshop for design, and MySQL for 
                      database management.
-             </p>
-
           </p>
           <p className="hero--section-description--about">
             I’m constantly improving my skills, exploring new technologies, and refining

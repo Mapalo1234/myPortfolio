@@ -718,12 +718,50 @@ input[type="checkbox"] {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding: 20px;
   }
-  .hero--section--title,
+
   .hero--section-description,
   .footer--content {
     text-align: center;
+  }
+
+  .hero--section .hero--section--title {
+    font-size: 60px;
+    line-height: 60px;}
+
+    .hero--section .hero--section-sec--title--color{
+    font-size: 45px;
+   }
+
+   .skills--section {
+    padding: 20px;
+  }
+
+  .portfolio--section{
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .section--heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .portfolio--btn--github {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .contact--section {
+   width: 80%;
+  }
+   
+
+  .hero--section-description {
+    text-justify: inter-word;
+    text-align: justify;
   }
   .skills--section--container,
   .about--section,
@@ -746,7 +784,6 @@ input[type="checkbox"] {
   }
   .skills--section,
   .testimonial--section,
-  .contact--section,
   .footer--container {
     gap: 20px;
     padding-top: 70px;
@@ -754,7 +791,7 @@ input[type="checkbox"] {
   }
   .about--section {
     gap: 20px;
-    padding-top: 0;
+    padding: 10px;
     padding-bottom: 0;
   }
   .testimonial--section--card {
