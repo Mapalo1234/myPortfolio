@@ -1,0 +1,77 @@
+{
+  "skills": [
+  {
+    "id": "1",
+    "src": "./img/product-chain-1.png",
+    "title": "Front-End Development",
+    "description": "Build responsive UIs using React.js, JavaScript, HTML, and CSS with a focus on performance and clean user experience."
+  },
+  {
+    "id": "2",
+    "src": "./img/tag-1.png",
+    "title": "Back-End Development",
+    "description": "Develop APIs and systems using Node.js, Express, and MongoDB with authentication and role-based access control."
+  },
+  {
+    "id": "3",
+    "src": "./img/feather-pen-2.png",
+    "title": "UI & UX Design",
+    "description": "Design user-friendly interfaces using Figma and modern CSS, focusing on usability, layout, and accessibility."
+  },
+  {
+    "id": "4",
+    "src": "./img/feather-pen-1.png",
+    "title": "Git Hub & Version Control",
+    "description": "Use Git and GitHub for version control, code management, collaboration, and maintaining clean project history."
+  }
+],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/Screenshot 2026-04-18 181926.png",
+      "title": "Final Year Project",
+      "description": "ZamHarvest is a digital platform designed to connect farmers with buyers, making it easier to trade agricultural products efficiently while supporting local farming communities.",
+      "link": "https://github.com/Mapalo1234/ZamHarvest_App.git"
+    },
+    {
+      "id": "2",
+      "src": "./img/CT.png",
+      "title": "E-COMMERCE WEBSITE",
+      "description": "An e-commerce platform for browsing products, managing a shopping cart, and completing purchases with a seamless user experience.",
+      "link": "https://github.com/willywipeout/city-gamers-webapp.git"
+    },
+    {
+      "id": "3",
+      "src": "./img/Figma logo redesign.jpg",
+      "title": "PHOTOSHOP & FIGMA DESIGNS",
+      "description": "A portfolio of design work created with Photoshop and Figma, highlighting UI/UX, branding, and visual design skills.",
+      "link": "https://github.com/Mapalo1234/DESIGNS.git"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
