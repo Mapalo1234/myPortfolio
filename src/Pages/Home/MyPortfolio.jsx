@@ -7,7 +7,7 @@ export default function MyPortfolio() {
         <div className="portfolio--container">
           <h2 className="section--heading">Worked on Projects</h2>
         </div>
-        <div>
+        <div className="portfolio--btn--github">
           <a 
           href="https://github.com/Mapalo1234"
           target="_blank"

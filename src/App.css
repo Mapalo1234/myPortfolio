@@ -29,6 +29,8 @@ p {
   font-family: "Roboto";
   display: inline-block;
   padding: 14px 32px;
+  border: none;
+  height: 60px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -48,19 +50,20 @@ p {
   -o-transition: background-color 0.5s;
 }
 .btn-outline-primary {
+  height: 27px;
   color: var(--white);
   background-color: var(--bg-shade);
   border: 1px solid var(--bg-shade);
+  border-radius: 10px;
 }
 .btn-outline-primary:hover {
  color: var(--bg-shade);
   background-color: var(--white);
   border: 1px solid var(--bg-shade);
 }
-.btn-primary {
-  color: var(--white);
-  background-color: var(--bg-shade);
-  border: 1px solid var(--primar);
+.hero--section--content .btn-primary {
+  color: var(--bg-shade);
+  background-color: var(--white);
 }
 .btn-primary:hover {
   color: var(--white);
@@ -205,12 +208,21 @@ h2 {
   cursor: pointer;
 }
 
+.button--icons {
+  display: flex;
+  margin-top: 20px;
+  gap: 16px;
+}
+  
+
 .navbar--logo .logo-icon {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
   animation: pulse-glow 3s ease-in-out infinite;
 }
+
+button--icons
 
 .navbar--logo .logo-divider {
   width: 1px;
@@ -236,6 +248,8 @@ h2 {
   color: #00d4ff;
   animation: letter-pulse 3s ease-in-out infinite;
 }
+
+.btn-primary
 
 .navbar--logo .letter-tech {
   color: #e8eaf6;
@@ -295,6 +309,7 @@ h2 {
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
+
 }
 .hero--section--title {
   color: var(--heading-color);
@@ -359,6 +374,7 @@ h2 {
 .skills--section--card {
   display: flex;
   color: var(--white);
+  height: 320px;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
@@ -472,7 +488,7 @@ btn btn-primary contact--form--btn
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 450px;
+  height: 500px;
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
@@ -491,13 +507,13 @@ btn btn-primary contact--form--btn
   align-self: stretch;
 }
 .portfolio--section--title {
-  color: var(--heading-color);
+  color: var(--bg-shade);
+  margin-bottom: 15px ;
 }
 .portfolio--link {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
 }
@@ -718,7 +734,8 @@ input[type="checkbox"] {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding: 20px;
+    padding:60px 20px;
+    
   }
 
   .hero--section-description,
